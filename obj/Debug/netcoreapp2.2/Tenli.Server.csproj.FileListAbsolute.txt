@@ -1,0 +1,17 @@
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/Tenli.Server.deps.json
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/Tenli.Server.runtimeconfig.json
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/Tenli.Server.runtimeconfig.dev.json
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/Tenli.Server.dll
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/Tenli.Server.pdb
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/Tenli.Server.xml
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.csprojAssemblyReference.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.csproj.CoreCompileInputs.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.RazorAssemblyInfo.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.RazorAssemblyInfo.cs
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/EFCoreNpgsqlNetTopologySuite.cs
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.AssemblyInfoInputs.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.AssemblyInfo.cs
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.RazorTargetAssemblyInfo.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.dll
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.xml
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/Tenli.Server.pdb

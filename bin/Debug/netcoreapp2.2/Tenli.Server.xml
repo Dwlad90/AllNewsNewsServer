@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tenli.Server</name>
+    </assembly>
+    <members>
+        <member name="M:Tenli.Server.Controllers.AccountsController.PutAsync(Tenli.Server.Data.DTOs.ApplicationUser.UpdateApplicationUserDTO)">
+            Update current user's info.
+        </member>
+        <member name="T:Tenli.Server.Helpers.Swagger.AcceptLanguageHeaderFilter">
+            <summary>
+            Operation filter to add the requirement of the custom header
+            </summary>
+        </member>
+    </members>
+</doc>
