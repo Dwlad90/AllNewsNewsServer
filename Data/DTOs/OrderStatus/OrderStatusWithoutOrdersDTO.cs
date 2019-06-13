@@ -1,6 +1,6 @@
-using Tenli.Server.Data.DTOs.Type;
+using AllNewsServer.Data.DTOs.Type;
 
-namespace Tenli.Server.Data.DTOs.OrderStatus
+namespace AllNewsServer.Data.DTOs.OrderStatus
 {
     public class OrderStatusWithoutOrdersDTO:TypeDTO
     {

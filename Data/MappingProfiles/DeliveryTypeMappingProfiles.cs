@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.DeliveryType;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.DeliveryType;
+using AllNewsServer.Data.Models;
 
 public class DeliveryTypeMappingProfiles : Profile {
   public DeliveryTypeMappingProfiles () {

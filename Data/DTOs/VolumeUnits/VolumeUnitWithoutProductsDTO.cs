@@ -1,7 +1,7 @@
 
-using Tenli.Server.Data.DTOs.Unit;
+using AllNewsServer.Data.DTOs.Unit;
 
-namespace Tenli.Server.Data.DTOs.VolumeUnit {
+namespace AllNewsServer.Data.DTOs.VolumeUnit {
   public class VolumeUnitWithoutProductsDTO :UnitDTO{
   }
 }

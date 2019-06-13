@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.EntityFrameworkCore;
-using Tenli.Server.Data;
-using Tenli.Server.Data.Constants;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data;
+using AllNewsServer.Data.Constants;
+using AllNewsServer.Data.Models;
 
-namespace Tenli.Server.Services
+namespace AllNewsServer.Services
 {
     public class ApplicationRoleService
     {

@@ -14,16 +14,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
-using Tenli.Server.Configurations;
-using Tenli.Server.Data;
-using Tenli.Server.Data.Constants;
-using Tenli.Server.Data.DTOs.ActiveSession;
-using Tenli.Server.Data.DTOs.ApplicationRole;
-using Tenli.Server.Data.DTOs.ApplicationUser;
-using Tenli.Server.Data.Models;
-using Tenli.Server.Services;
+using AllNewsServer.Configurations;
+using AllNewsServer.Data;
+using AllNewsServer.Data.Constants;
+using AllNewsServer.Data.DTOs.ActiveSession;
+using AllNewsServer.Data.DTOs.ApplicationRole;
+using AllNewsServer.Data.DTOs.ApplicationUser;
+using AllNewsServer.Data.Models;
+using AllNewsServer.Services;
 
-namespace Tenli.Server.Controllers {
+namespace AllNewsServer.Controllers {
   // TO DO: Change to refresh token
 
   [Route ("api/v1/[controller]")]

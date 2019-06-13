@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using NetTopologySuite.Geometries;
 
-namespace Tenli.Server.Data.Models {
+namespace AllNewsServer.Data.Models {
   public class Order : BaseEntity {
     [Key]
     [DatabaseGenerated (DatabaseGeneratedOption.Identity)]

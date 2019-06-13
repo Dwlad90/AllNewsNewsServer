@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.LocalizationResource;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.LocalizationResource;
+using AllNewsServer.Data.Models;
 
 public class LocalizationResourceMappingProfiles : Profile {
   public LocalizationResourceMappingProfiles () {

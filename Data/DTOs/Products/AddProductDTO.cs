@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-namespace Tenli.Server.Data.DTOs.Product {
+namespace AllNewsServer.Data.DTOs.Product {
   public class AddProductDTO {
     public string Name { get; set; }
     public string Description { get; set; }

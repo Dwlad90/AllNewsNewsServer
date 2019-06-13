@@ -1,7 +1,7 @@
 using System;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.ApplicationRole;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.ApplicationRole;
+using AllNewsServer.Data.Models;
 
 public class ApplicationRoleMappingProfiles : Profile {
   public ApplicationRoleMappingProfiles () {

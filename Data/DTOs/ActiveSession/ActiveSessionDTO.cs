@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tenli.Server.Data.DTOs.ActiveSession
+namespace AllNewsServer.Data.DTOs.ActiveSession
 {
     public class ActiveSessionDTO
     {

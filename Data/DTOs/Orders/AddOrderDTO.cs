@@ -5,9 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using NetTopologySuite.Geometries;
 using NetTopologySuite.IO.Converters;
 using Newtonsoft.Json;
-using Tenli.Server.Data.DTOs.Product;
+using AllNewsServer.Data.DTOs.Product;
 
-namespace Tenli.Server.Data.DTOs.Order {
+namespace AllNewsServer.Data.DTOs.Order {
   public class AddOrderDTO {
 
     [Required]

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Tenli.Server.Data.DTOs.Culture;
-using Tenli.Server.Data.DTOs.OrderStatus;
-using Tenli.Server.Data.DTOs.ProductType;
+using AllNewsServer.Data.DTOs.Culture;
+using AllNewsServer.Data.DTOs.OrderStatus;
+using AllNewsServer.Data.DTOs.ProductType;
 
-namespace Tenli.Server.Data.DTOs.LocalizationResource {
+namespace AllNewsServer.Data.DTOs.LocalizationResource {
   public class LocalizationResourceDTO {
     public int Id { get; set; }
     public string Key { get; set; }

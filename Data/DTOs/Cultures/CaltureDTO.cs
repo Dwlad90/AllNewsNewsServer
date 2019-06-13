@@ -1,5 +1,5 @@
-﻿using Tenli.Server.Data.DTOs.Unit;
+﻿using AllNewsServer.Data.DTOs.Unit;
 
-namespace Tenli.Server.Data.DTOs.Culture {
+namespace AllNewsServer.Data.DTOs.Culture {
   public class CultureDTO : UnitDTO { }
 }

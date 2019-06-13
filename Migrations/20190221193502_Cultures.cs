@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Tenli.Server.Migrations
+namespace AllNewsServer.Migrations
 {
     public partial class Cultures : Migration
     {

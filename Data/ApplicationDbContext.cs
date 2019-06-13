@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using System.Web;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Tenli.Server.Data.Models;
-using Tenli.Server.Services;
+using AllNewsServer.Data.Models;
+using AllNewsServer.Services;
 
-namespace Tenli.Server.Data {
+namespace AllNewsServer.Data {
   public class ApplicationDbContext : DbContext {
     private readonly DbContextService _dbContextService;
     public ApplicationDbContext (DbContextOptions<ApplicationDbContext> options, DbContextService dbContextService) : base (options) {

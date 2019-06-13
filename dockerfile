@@ -9,4 +9,4 @@ RUN ["dotnet", "publish","--configuration", "Release","--framework","netcoreapp2
 RUN ["ls", "/app/bin/Release/netcoreapp2.2/publish/"]
 RUN chmod +x ./entrypoint.sh
 CMD /bin/bash ./entrypoint.sh
-# ENTRYPOINT [ "dotnet", "--server.urls", "http://*:80", "/app/bin/Release/netcoreapp2.2/publish/Tenli.Server.dll" ]
+# ENTRYPOINT [ "dotnet", "--server.urls", "http://*:80", "/app/bin/Release/netcoreapp2.2/publish/AllNewsServer.dll" ]

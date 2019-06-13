@@ -6,9 +6,9 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetTopologySuite.Geometries;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Tenli.Server.Data;
+using AllNewsServer.Data;
 
-namespace Tenli.Server.Migrations
+namespace AllNewsServer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20190223214859_OrderLocation")]
@@ -23,7 +23,7 @@ namespace Tenli.Server.Migrations
                 .HasAnnotation("ProductVersion", "2.2.2-servicing-10034")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ActiveSession", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ActiveSession", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -51,7 +51,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ActiveSessions");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ApplicationRole", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ApplicationRole", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -75,7 +75,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ApplicationRoles");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ApplicationUser", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ApplicationUser", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -117,7 +117,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ApplicationUsers");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Culture", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Culture", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -144,7 +144,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("Cultures");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Currency", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Currency", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -166,7 +166,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("Currencies");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.LocalizationResource", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.LocalizationResource", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -218,7 +218,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("LocalizationResources");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Order", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -256,7 +256,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("Orders");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.OrderProduct", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.OrderProduct", b =>
                 {
                     b.Property<int>("OrderId");
 
@@ -269,7 +269,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("OrderProduct");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.OrderStatus", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.OrderStatus", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -294,7 +294,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("OrderStatuses");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Product", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -350,7 +350,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ProductType", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ProductType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -375,7 +375,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ProductTypes");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.SizeUnit", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.SizeUnit", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -397,7 +397,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("SizeUnits");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.UserRole", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.UserRole", b =>
                 {
                     b.Property<int>("ApplicationRoleId");
 
@@ -410,7 +410,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("UserRole");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.VolumeUnit", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.VolumeUnit", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -432,7 +432,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("VolumeUnits");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.WeightUnit", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.WeightUnit", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -454,100 +454,100 @@ namespace Tenli.Server.Migrations
                     b.ToTable("WeightUnits");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ActiveSession", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ActiveSession", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("AllNewsServer.Data.Models.ApplicationUser", "ApplicationUser")
                         .WithMany("ActiveSessions")
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.LocalizationResource", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.LocalizationResource", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.Culture", "Culture")
+                    b.HasOne("AllNewsServer.Data.Models.Culture", "Culture")
                         .WithMany()
                         .HasForeignKey("CultureId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Tenli.Server.Data.Models.Currency")
+                    b.HasOne("AllNewsServer.Data.Models.Currency")
                         .WithMany("Names")
                         .HasForeignKey("CurrencyId");
 
-                    b.HasOne("Tenli.Server.Data.Models.OrderStatus", "OrederStatus")
+                    b.HasOne("AllNewsServer.Data.Models.OrderStatus", "OrederStatus")
                         .WithMany("Names")
                         .HasForeignKey("OrderStatusId");
 
-                    b.HasOne("Tenli.Server.Data.Models.ProductType", "ProductType")
+                    b.HasOne("AllNewsServer.Data.Models.ProductType", "ProductType")
                         .WithMany("Names")
                         .HasForeignKey("ProductTypeId");
 
-                    b.HasOne("Tenli.Server.Data.Models.SizeUnit")
+                    b.HasOne("AllNewsServer.Data.Models.SizeUnit")
                         .WithMany("Descriptions")
                         .HasForeignKey("SizeUnitId");
 
-                    b.HasOne("Tenli.Server.Data.Models.VolumeUnit")
+                    b.HasOne("AllNewsServer.Data.Models.VolumeUnit")
                         .WithMany("Descriptions")
                         .HasForeignKey("VolumeUnitId");
 
-                    b.HasOne("Tenli.Server.Data.Models.WeightUnit")
+                    b.HasOne("AllNewsServer.Data.Models.WeightUnit")
                         .WithMany("Descriptions")
                         .HasForeignKey("WeightUnitId");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Order", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Order", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.OrderStatus", "OrderStatus")
+                    b.HasOne("AllNewsServer.Data.Models.OrderStatus", "OrderStatus")
                         .WithMany("Orders")
                         .HasForeignKey("OrderStatusId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.OrderProduct", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.OrderProduct", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.Order", "Order")
+                    b.HasOne("AllNewsServer.Data.Models.Order", "Order")
                         .WithMany("OrderProducts")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Tenli.Server.Data.Models.Product", "Product")
+                    b.HasOne("AllNewsServer.Data.Models.Product", "Product")
                         .WithMany("OrderProducts")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Product", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Product", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.Currency", "Currency")
+                    b.HasOne("AllNewsServer.Data.Models.Currency", "Currency")
                         .WithMany("Products")
                         .HasForeignKey("CurrencyId");
 
-                    b.HasOne("Tenli.Server.Data.Models.ProductType", "ProductType")
+                    b.HasOne("AllNewsServer.Data.Models.ProductType", "ProductType")
                         .WithMany("Products")
                         .HasForeignKey("ProductTypeId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Tenli.Server.Data.Models.SizeUnit", "SizeUnit")
+                    b.HasOne("AllNewsServer.Data.Models.SizeUnit", "SizeUnit")
                         .WithMany("Products")
                         .HasForeignKey("SizeUnitId");
 
-                    b.HasOne("Tenli.Server.Data.Models.VolumeUnit", "VolumeUnit")
+                    b.HasOne("AllNewsServer.Data.Models.VolumeUnit", "VolumeUnit")
                         .WithMany("Products")
                         .HasForeignKey("VolumeUnitId");
 
-                    b.HasOne("Tenli.Server.Data.Models.WeightUnit", "WeightUnit")
+                    b.HasOne("AllNewsServer.Data.Models.WeightUnit", "WeightUnit")
                         .WithMany("Products")
                         .HasForeignKey("WeightUnitId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.UserRole", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.UserRole", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.ApplicationRole", "ApplicationRole")
+                    b.HasOne("AllNewsServer.Data.Models.ApplicationRole", "ApplicationRole")
                         .WithMany("UserRoles")
                         .HasForeignKey("ApplicationRoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Tenli.Server.Data.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("AllNewsServer.Data.Models.ApplicationUser", "ApplicationUser")
                         .WithMany("UserRoles")
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade);

@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tenli.Server.Data.Models {
+namespace AllNewsServer.Data.Models {
   public class BaseEntity {
     public DateTime CreationDateTime { get; set; }
     public string CreationUser { get; set; }

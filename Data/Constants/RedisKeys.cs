@@ -1,4 +1,4 @@
-namespace Tenli.Server.Data.Constants
+namespace AllNewsServer.Data.Constants
 {
     public static class RedisKeys
     {

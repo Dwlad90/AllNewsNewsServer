@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using NetTopologySuite.Geometries;
 
-namespace Tenli.Server.Migrations
+namespace AllNewsServer.Migrations
 {
     public partial class OrderLocation : Migration
     {

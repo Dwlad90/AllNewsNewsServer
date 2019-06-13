@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Tenli.Server")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AllNews.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Tenli.Server")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Tenli.Server")]
+[assembly: System.Reflection.AssemblyProductAttribute("AllNews.Server")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AllNews.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

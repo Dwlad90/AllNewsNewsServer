@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using Newtonsoft.Json;
 
-namespace Tenli.Server.Data.Models {
+namespace AllNewsServer.Data.Models {
   public class ApplicationUser : BaseEntity {
     [Key]
     [DatabaseGenerated (DatabaseGeneratedOption.Identity)]

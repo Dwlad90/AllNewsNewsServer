@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.OrderStatus;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.OrderStatus;
+using AllNewsServer.Data.Models;
 
 public class OrderStatusMappingProfiles : Profile {
   public OrderStatusMappingProfiles () {

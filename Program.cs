@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using AllNewsServer.Data;
+using AllNewsServer.Services;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Tenli.Server.Data;
-using Tenli.Server.Services;
 
-namespace Tenli.Server {
+namespace AllNewsServer {
   public class Program {
     public static void Main (string[] args) {
       var host = CreateWebHostBuilder (args).Build ();
@@ -20,8 +20,7 @@ namespace Tenli.Server {
         var services = scope.ServiceProvider;
         try {
           var context = services.GetRequiredService<ApplicationDbContext> ();
-          var inMemoryDbService = services.GetRequiredService<RedisService> ();
-          DbInitializer.Seed (context, inMemoryDbService);
+          DbInitializer.Seed (context);
         } catch (Exception ex) {
           var logger = services.GetRequiredService<ILogger<Program>> ();
           logger.LogError (ex, "An error occurred while seeding the database.");

@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.SizeUnit;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.SizeUnit;
+using AllNewsServer.Data.Models;
 
 public class SizeUnitMappingProfiles : Profile {
   public SizeUnitMappingProfiles () {

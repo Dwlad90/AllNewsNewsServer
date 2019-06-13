@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.ProductType;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.ProductType;
+using AllNewsServer.Data.Models;
 
 public class ProductTypeMappingProfiles : Profile {
   public ProductTypeMappingProfiles () {

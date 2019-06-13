@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using Tenli.Server.Data.Constants;
+using AllNewsServer.Data.Constants;
 
-namespace Tenli.Server.Helpers {
+namespace AllNewsServer.Helpers {
   public class TypeHelpers {
     public static List<KeyValuePair<string, string>> getTypeValues (Type type) {
       Dictionary<string, string> types = new Dictionary<string, string> ();

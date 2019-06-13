@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Tenli.Server.Data.DTOs.Product;
+using AllNewsServer.Data.DTOs.Product;
 
-namespace Tenli.Server.Data.DTOs.WeightUnit {
+namespace AllNewsServer.Data.DTOs.WeightUnit {
   public class WeightUnitDTO :WeightUnitWithoutProductsDTO{
     public virtual List<ProductDTO> Products { get; set; }
   }

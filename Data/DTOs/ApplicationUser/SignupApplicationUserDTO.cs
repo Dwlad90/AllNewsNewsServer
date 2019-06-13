@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Tenli.Server.Data.DTOs.ApplicationRole;
+using AllNewsServer.Data.DTOs.ApplicationRole;
 
-namespace Tenli.Server.Data.DTOs.ApplicationUser
+namespace AllNewsServer.Data.DTOs.ApplicationUser
 {
     public class SignupApplicationUserDTO:AddApplicationUserDTO
     {

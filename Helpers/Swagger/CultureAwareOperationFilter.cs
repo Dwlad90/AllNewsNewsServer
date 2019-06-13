@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using Tenli.Server.Data.Constants;
+using AllNewsServer.Data.Constants;
 
-namespace Tenli.Server.Helpers.Swagger {
+namespace AllNewsServer.Helpers.Swagger {
   /// <summary>
   /// Operation filter to add the requirement of the custom header
   /// </summary>

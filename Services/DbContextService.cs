@@ -9,15 +9,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
-using Tenli.Server.Data;
-using Tenli.Server.Data.Constants;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data;
+using AllNewsServer.Data.Constants;
+using AllNewsServer.Data.Models;
 using System.Threading;
 using System.Web;
-using Tenli.Server.Services;
+using AllNewsServer.Services;
 
 
-namespace Tenli.Server.Services
+namespace AllNewsServer.Services
 {
     public class DbContextService
     {

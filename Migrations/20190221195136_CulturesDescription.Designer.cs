@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-using Tenli.Server.Data;
+using AllNewsServer.Data;
 
-namespace Tenli.Server.Migrations
+namespace AllNewsServer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20190221195136_CulturesDescription")]
@@ -21,7 +21,7 @@ namespace Tenli.Server.Migrations
                 .HasAnnotation("ProductVersion", "2.2.2-servicing-10034")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ActiveSession", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ActiveSession", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -49,7 +49,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ActiveSessions");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ApplicationRole", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ApplicationRole", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -63,7 +63,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ApplicationRoles");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ApplicationUser", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ApplicationUser", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -105,7 +105,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("ApplicationUsers");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.Culture", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.Culture", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
@@ -121,7 +121,7 @@ namespace Tenli.Server.Migrations
                     b.ToTable("Cultures");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.UserRole", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.UserRole", b =>
                 {
                     b.Property<int>("ApplicationRoleId");
 
@@ -134,22 +134,22 @@ namespace Tenli.Server.Migrations
                     b.ToTable("UserRole");
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.ActiveSession", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.ActiveSession", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("AllNewsServer.Data.Models.ApplicationUser", "ApplicationUser")
                         .WithMany("ActiveSessions")
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("Tenli.Server.Data.Models.UserRole", b =>
+            modelBuilder.Entity("AllNewsServer.Data.Models.UserRole", b =>
                 {
-                    b.HasOne("Tenli.Server.Data.Models.ApplicationRole", "ApplicationRole")
+                    b.HasOne("AllNewsServer.Data.Models.ApplicationRole", "ApplicationRole")
                         .WithMany("UserRoles")
                         .HasForeignKey("ApplicationRoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Tenli.Server.Data.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("AllNewsServer.Data.Models.ApplicationUser", "ApplicationUser")
                         .WithMany("UserRoles")
                         .HasForeignKey("ApplicationUserId")
                         .OnDelete(DeleteBehavior.Cascade);

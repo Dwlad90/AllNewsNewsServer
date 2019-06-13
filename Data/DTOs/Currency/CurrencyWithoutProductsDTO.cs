@@ -1,5 +1,5 @@
-using Tenli.Server.Data.DTOs.Type;
+using AllNewsServer.Data.DTOs.Type;
 
-namespace Tenli.Server.Data.DTOs.Currency {
+namespace AllNewsServer.Data.DTOs.Currency {
   public class CurrencyWithoutProductsDTO : TypeDTO { }
 }

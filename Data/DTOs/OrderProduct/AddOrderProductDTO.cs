@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Tenli.Server.Data.DTOs.Order;
-using Tenli.Server.Data.DTOs.Product;
+using AllNewsServer.Data.DTOs.Order;
+using AllNewsServer.Data.DTOs.Product;
 
-namespace Tenli.Server.Data.DTOs.OrderProduct
+namespace AllNewsServer.Data.DTOs.OrderProduct
 {
     public class AddOrderProductDTO
     {

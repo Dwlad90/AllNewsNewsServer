@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
-using Tenli.Server.Data.DTOs.Currency;
-using Tenli.Server.Data.DTOs.Order;
-using Tenli.Server.Data.DTOs.ProductType;
-using Tenli.Server.Data.DTOs.SizeUnit;
-using Tenli.Server.Data.DTOs.VolumeUnit;
-using Tenli.Server.Data.DTOs.WeightUnit;
+using AllNewsServer.Data.DTOs.Currency;
+using AllNewsServer.Data.DTOs.Order;
+using AllNewsServer.Data.DTOs.ProductType;
+using AllNewsServer.Data.DTOs.SizeUnit;
+using AllNewsServer.Data.DTOs.VolumeUnit;
+using AllNewsServer.Data.DTOs.WeightUnit;
 
-namespace Tenli.Server.Data.DTOs.Product {
+namespace AllNewsServer.Data.DTOs.Product {
   public class ProductDTO:ProductWithoutProductsDTO {
     public virtual List<OrderDTO> Orders { get; set; }
   }

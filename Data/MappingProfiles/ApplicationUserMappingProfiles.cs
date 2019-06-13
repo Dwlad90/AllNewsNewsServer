@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.ApplicationUser;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.ApplicationUser;
+using AllNewsServer.Data.Models;
 
 public class ApplicationUserMappingProfiles : Profile {
   public ApplicationUserMappingProfiles () {

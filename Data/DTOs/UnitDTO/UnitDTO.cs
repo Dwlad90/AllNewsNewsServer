@@ -1,4 +1,4 @@
-namespace Tenli.Server.Data.DTOs.Unit {
+namespace AllNewsServer.Data.DTOs.Unit {
   public class UnitDTO {
     public int Id { get; set; }
     public string Key { get; set; }

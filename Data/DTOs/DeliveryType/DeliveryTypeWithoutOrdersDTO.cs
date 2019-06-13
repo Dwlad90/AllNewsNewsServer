@@ -1,5 +1,5 @@
-using Tenli.Server.Data.DTOs.Type;
+using AllNewsServer.Data.DTOs.Type;
 
-namespace Tenli.Server.Data.DTOs.DeliveryType {
+namespace AllNewsServer.Data.DTOs.DeliveryType {
   public class DeliveryTypeWithoutOrdersDTO : TypeDTO { }
 }

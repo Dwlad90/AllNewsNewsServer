@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.WeightUnit;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.WeightUnit;
+using AllNewsServer.Data.Models;
 
 public class WeightUnitMappingProfiles : Profile {
   public WeightUnitMappingProfiles () {

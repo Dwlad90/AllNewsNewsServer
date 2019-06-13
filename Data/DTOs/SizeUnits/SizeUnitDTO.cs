@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Tenli.Server.Data.DTOs.Product;
+using AllNewsServer.Data.DTOs.Product;
 
-namespace Tenli.Server.Data.DTOs.SizeUnit {
+namespace AllNewsServer.Data.DTOs.SizeUnit {
   public class SizeUnitDTO:SizeUnitWithoutProductsDTO {
     public List<ProductDTO> Products { get; set; }
   }

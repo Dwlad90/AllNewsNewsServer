@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace Tenli.Server.Migrations
+namespace AllNewsServer.Migrations
 {
     public partial class OrderStatus : Migration
     {

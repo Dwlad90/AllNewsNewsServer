@@ -1,7 +1,7 @@
 using System.Linq;
 using AutoMapper;
-using Tenli.Server.Data.DTOs.Currency;
-using Tenli.Server.Data.Models;
+using AllNewsServer.Data.DTOs.Currency;
+using AllNewsServer.Data.Models;
 
 public class CurrencyMappingProfiles : Profile {
   public CurrencyMappingProfiles () {

@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 
-namespace Tenli.Server.Data.Models {
+namespace AllNewsServer.Data.Models {
   public class LocalizationResource : BaseEntity {
     [Key]
     [DatabaseGenerated (DatabaseGeneratedOption.Identity)]

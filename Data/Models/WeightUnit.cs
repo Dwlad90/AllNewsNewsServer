@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tenli.Server.Data.Models {
+namespace AllNewsServer.Data.Models {
   public class WeightUnit : BaseEntity {
     [Key]
     [DatabaseGenerated (DatabaseGeneratedOption.Identity)]

@@ -1,0 +1,17 @@
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/AllNews.Server.deps.json
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/AllNews.Server.runtimeconfig.json
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/AllNews.Server.runtimeconfig.dev.json
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/AllNews.Server.dll
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/AllNews.Server.pdb
+/Users/dwlad/Projects/newsApp/NewServer/bin/Debug/netcoreapp2.2/AllNews.Server.xml
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.csprojAssemblyReference.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.csproj.CoreCompileInputs.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.RazorAssemblyInfo.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.RazorAssemblyInfo.cs
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/EFCoreNpgsqlNetTopologySuite.cs
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.AssemblyInfoInputs.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.AssemblyInfo.cs
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.RazorTargetAssemblyInfo.cache
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.dll
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.xml
+/Users/dwlad/Projects/newsApp/NewServer/obj/Debug/netcoreapp2.2/AllNews.Server.pdb

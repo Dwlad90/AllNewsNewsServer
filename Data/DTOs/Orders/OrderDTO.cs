@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using Tenli.Server.Data.DTOs.ApplicationUser;
-using Tenli.Server.Data.DTOs.OrderProduct;
-using Tenli.Server.Data.DTOs.OrderStatus;
-using Tenli.Server.Data.DTOs.Product;
-using Tenli.Server.Data.DTOs.DeliveryType;
+using AllNewsServer.Data.DTOs.ApplicationUser;
+using AllNewsServer.Data.DTOs.OrderProduct;
+using AllNewsServer.Data.DTOs.OrderStatus;
+using AllNewsServer.Data.DTOs.Product;
+using AllNewsServer.Data.DTOs.DeliveryType;
 
-namespace Tenli.Server.Data.DTOs.Order {
+namespace AllNewsServer.Data.DTOs.Order {
   public class OrderDTO {
     public int Id { get; set; }
     public string Name { get; set; }

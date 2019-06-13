@@ -2,13 +2,13 @@
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Tenli.Server.Configurations
+namespace AllNewsServer.Configurations
 {
     public class AuthConfiguration
     {
         public const string TOKEN_ISSUER = "MyAuthServer";
 
-        public const string TOKEN_AUDIENCE = "https://my.tenli.app/";
+        public const string TOKEN_AUDIENCE = "https://my.allnews.app/";
 
         const string TOKEN_KEY = "mysupersecret_secretkey!123";
 
